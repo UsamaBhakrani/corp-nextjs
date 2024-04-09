@@ -1,8 +1,14 @@
+import Hero from "@/components/Hero";
+import performance from "../../../public/performance.jpg";
 
 const PerformancePage = () => {
   return (
-    <div>PerformancePage</div>
-  )
-}
+    <Hero
+      imgAlt="Welding"
+      imgData={performance}
+      title="We serve high performance applications"
+    />
+  );
+};
 
-export default PerformancePage
+export default PerformancePage;
